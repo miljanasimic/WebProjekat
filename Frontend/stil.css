@@ -1,0 +1,113 @@
+.info
+{
+    text-align: center;
+    color: rgb(252, 252, 252);
+    text-shadow: 2px 2px 10px rgb(2, 2, 1);
+    font-style:italic;
+    font-size: 30px;
+}
+.kontBiblioteka,.odeljenjeForme
+{
+    display: flex;
+    flex-direction: column;
+}
+.kontOdeljenje
+{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.red,.divZaCrtanje
+{
+    display: flex;
+    flex-grow: 1;
+}
+.divZaCrtanje,.knjiga
+{
+    flex-direction: column;
+}
+.divZaCrtanje,.odeljenjeForme
+{
+    background-color:white;
+}
+.knjiga
+{
+    border: 1px solid black;
+    flex:1 0 130px;
+    margin: 3px;
+    text-align: center;
+    background-color: rgb(238, 231, 165);
+}
+.formaOdeljenje
+{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;    
+    margin: 10px;
+    min-width: 200px;
+    width: 18%;
+    align-self: center;
+    border: 1px solid black;
+    background-image: url(unosOdeljenja2.jpg);   
+    background-size: 100% 100%; 
+}
+.fDodaj
+{
+    flex:0 0 250px;
+    min-width: 220px;
+    background-image: url(formaDodaj.jpg);
+}
+.fIzmeni
+{
+    background-image: url(formaIzmeni.jpg);
+}
+.fDodaj,.fIzmeni
+{
+    border: 2px groove black;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+.nazivForme
+{
+    font-style: italic;
+    font-size:larger;
+    align-self: center;
+    margin-bottom: 5px;
+}
+.dugme
+{
+    margin-top: 20px;
+    width: 30%;
+    align-self: center;
+}
+.knjiga
+{
+    display: flex;
+}
+select
+{
+   margin: 5px;
+}
+.dugmeInfo
+{
+    width: 100%;
+    height: 30%;
+}
+.naslov
+{
+    height: 35%;
+    font-size: 90%;
+}
+.nazivOdlj
+{
+    text-shadow: 2px 2px 5px rgb(163, 165, 130);
+    color: teal;
+    background-color: white;
+}
+.kontBiblioteka
+{
+    background-image: url(background.jpg);
+    background-size: 100% 350px;
+    background-repeat: repeat-y; 
+}
