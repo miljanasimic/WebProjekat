@@ -1,0 +1,1 @@
+INSERT INTO Biblioteka VALUES ('Stevan Sremac', 'Voždova 15');
